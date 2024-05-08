@@ -9,8 +9,11 @@ public class Account {
         return accountNo;
     }
 
-    public int getBalance(){
+    public int getBalance() {
         return balance;
     }
 
+    public String getOwner() {
+        return owner;
+    }
 }
